@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.web-title:link { 
+    text-decoration: none; 
+    } 
+.web-title:visited { 
+    text-decoration: none;
+    color: black; 
+    } 
+.web-title:hover { 
+    text-decoration: none; 
+    } 
+.web-title:active { 
+    text-decoration: none;
+    color: black; 
+    }
+
+h1 {
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: Papyrus, fantasy;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    background-color: burlywood;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: maroon;
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif ;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #ffd700;
+    /* Change the color on hover */
+}
+
+.rightNav {
+    text-align: right;
+}
+
+#search {
+    padding: 8px;
+    font-size: 12px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #000;
+    /* Change the background color on hover */
+    color: #ffd700;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.cover {
+    margin-top: 20px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+
+.caption {
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}

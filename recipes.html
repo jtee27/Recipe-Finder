@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Recipes | Recipe Finder</title>
+        <link href="recipes.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Recipe Finder</h1>
+        <p><em>Est. 2024</em></p>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="#planner">Planner</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.youtube.com/watch?v=678cV9ldaMg">Help</a></li>
+            </ul>
+            <div class="rightNav">
+                <input type="text" name="search" id="search" placeholder="Search">
+                <button class="btn btn-sm">Search</button>
+            </div>
+        </nav>
+        <div class="main-search">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="container">
+            <div class="checkbox-container">
+                <fieldset>
+                    <legend><b>Dietary Requirements</b></legend>
+                    <input id="halal" type="checkbox" name="diet" value="halal" checked> <label for="halal">Halal</label>
+                    <input id="vegan" type="checkbox" name="diet" value="vegan"> <label for="vegan">Vegan</label>
+                    <input id="lactose-free" type="checkbox" name="diet" value="lactose-free"> <label for="lactose-free">Lactose Free</label>
+                </fieldset>
+            </div>
+        </div>
+    </body>
+</html>
